@@ -20,13 +20,13 @@ All four main charts are wired into a single set of filter actions, so clicking 
 ## Design Decisions
 
 - **Color:** Fuel Type maps EV and Hybrid to green against neutral grey for CNG/Diesel/Petrol, drawing the eye to the cleaner-fuel share through pre-attentive pop-out. Emission Norm uses a single-hue sequential blue scale (light BS3 → dark BS6) since the norms are ordinal. Vehicle Category deliberately stays a neutral, descending-sorted bar chart since those categories carry no inherent rank.
-- **Layout:** Dashboards are ordered top to bottom by information density — Key Metrics first, the four categorical/trend charts second, row-level detail last — following an overview-first, details-on-demand approach.
+- **Layout:** Dashboards are ordered top to bottom by information density, Key Metrics first, the four categorical/trend charts second, row-level detail last following an overview-first, details-on-demand approach.
 - **Consistency:** Descending sort on Vehicle Category, plus consistent spacing, alignment, and label placement across all four charts, applies the Gestalt principles of similarity and proximity so the panels read as one coherent story.
 
 ## Known Limitations & Next Steps
 
 - CAGR and YoY KPI cards currently show a single value with no reference line or target band for context.
-- The grey-and-green fuel-type palette hasn't been tested against a color-blindness simulator; red-green-sensitive viewers may not perceive the intended highlight as clearly.
+- The grey-and-green fuel-type palette hasn't been tested against a color-blindness simulator, red-green-sensitive viewers may not perceive the intended highlight as clearly.
 
 A full write-up of the reasoning above is in [`Summary_and_Reflection_report.pdf`](./Summary_and_Reflection_report.pdf).
 
