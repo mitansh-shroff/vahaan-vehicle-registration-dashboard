@@ -5,18 +5,17 @@ An interactive two-dashboard Tableau workbook analyzing vehicle registration tre
 **[View the live dashboard on Tableau Public →](https://public.tableau.com/app/profile/mitansh.shroff/viz/shared/YS9C4589W)**
 
 ![Dashboard Preview](./assets/dashboard-overview.png)
-*(Add a screenshot of the VAHAAN Overview dashboard here — export one from Tableau Public and save it as `assets/dashboard-overview.png`)*
 
 ## Overview
 
-Built on a synthesized VAHAN vehicle registration dataset spanning **12 states**, **~3,700 records**, and **2018–2024**, this project engineers eight calculated metrics beyond raw record counts — Total Registrations, Distinct States, Average Vehicle Age, EV+Hybrid Adoption Rate, BS6 Compliance Rate, 2-Wheeler Share, 2018–2024 CAGR, and 2023–24 Year-on-Year growth — so the dashboard speaks to volume, composition, pace of change, and the emissions/EV transition at a glance.
+Built on a synthesized VAHAN vehicle registration dataset spanning **12 states**, **~3,700 records**, and **2018–2024**, this project engineers eight calculated metrics beyond raw record counts: Total Registrations, Distinct States, Average Vehicle Age, EV+Hybrid Adoption Rate, BS6 Compliance Rate, 2-Wheeler Share, 2018–2024 CAGR, and 2023–24 Year-on-Year growth, so the dashboard speaks to volume, composition, pace of change, and the emissions/EV transition at a glance.
 
 The workbook contains two dashboards:
 
 - **VAHAAN Overview** — a strip of six KPI cards (Total Registrations, EV+Hybrid Adoption, YoY Growth, BS6 Compliance, 2W Share, Average Vehicle Age), followed by four charts (Registrations by Vehicle Category, Fuel Type, Emission Norm, and Year), and a record-level Vehicle Detail table. A state dropdown filters every view down to any one of the 12 states.
 - **Key Metrics** — a standalone KPI scorecard.
 
-All four main charts are wired into a single set of filter actions, so clicking any bar, segment, or line point cross-filters the other charts and the detail table — letting a viewer move from national trends to specific vehicles in two clicks. An auto phone layout keeps the same interactions working on narrower screens.
+All four main charts are wired into a single set of filter actions, so clicking any bar, segment, or line point cross-filters the other charts and the detail table letting a viewer move from national trends to specific vehicles in two clicks. An auto phone layout keeps the same interactions working on narrower screens.
 
 ## Design Decisions
 
@@ -60,7 +59,7 @@ vahan-vehicle-registration-dashboard/
 ├── India_VAHAN_Dataset.csv
 ├── Summary_and_Reflection_report.pdf
 └── assets/
-    └── dashboard-overview.png   # Add a dashboard screenshot here
+    └── dashboard-overview.png  
 ```
 
 ## Author
